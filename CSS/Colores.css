@@ -1,0 +1,235 @@
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+/*header{
+  background:lightcoral;
+}*/
+
+body{
+  font-family:inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: monospace;
+  font-weight: normal;
+  font-style:unset;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -.2px;
+  margin: 0;
+  /*color: white;*/
+  /*text-transform: capitalize;*/
+  /*text-decoration: dashed;*/
+}
+
+h1 strong{
+  font-style: italic;
+}
+
+.hero{
+  height: 300px;
+  /*background-image:url("../Images/IMG-20211114-WA0170.jpg") ;*/
+  background-color:lightcoral;
+  /*background-size: 500px 300px;*/
+  /*background-repeat: no-repeat ;*/
+  /*background-position-x: right;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.hero-image{
+  object-fit: cover;
+}
+
+.project{
+  /*border-top: 10px solid red;
+  border-right: 10px solid blue;
+  border-left: 10px solid green;
+  border-bottom: 10px solid red;*/
+  /*border: 1px solid lightcoral;*/
+  /*background-color: lightcoral;*/
+  border-radius: 10px;
+  /*border-top-left-radius: 50px;*/
+  display: flex;
+}
+
+.project-details{
+  width: 500px;
+}
+.project-imageContainer{
+  width: 400px;
+}
+
+.header{
+  background-color:lightcoral;
+  color: white;
+  display: flex;
+  height: 145px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+.header a {
+  color:white;
+  text-decoration: none;
+}
+.menu{
+  height: inherit;
+}
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+.header a{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.footer{
+  color: white;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img{
+  vertical-align: middle;
+}
+
+.footer a{
+  color: white;
+}
+
+.event{
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff ;
+}
+
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-list-title{
+  margin-left: 20px;
+}
+
+.event img{
+  width: 480px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.event-url{
+  border:1px solid lightcoral;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: rgb(240, 102, 102);
+  border-radius: 5px;
+}
+
+.contact{
+  background-color: lightcoral;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+/*.social{
+  border: 1px solid red;
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.social-link.twitter{
+  background-image: url('../Images/twitter-1.png');
+  background-size: 50px 50px;
+}*/
+
+.form-email input{
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('../Images/mensaje.png');
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 15px 15px ;
+  background-position-x: 5px;
+}
+
+.form-email button{
+  display:block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  /*margin: 10px auto 0;*/
+  margin-top: 10px;
+}
+
+.form-email h3{
+  font-family: 'cursive';
+}
+
+.container{
+  /*border: 1px solid red;*/
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
